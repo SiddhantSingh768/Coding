@@ -1,0 +1,51 @@
+GIT COMMANDS -
+
+rm -rf .git          //deletes git repositories 
+git status           //tells the status of git repositories
+git clone            //clones the repositories 
+pwd                  //present working directory 
+cd                   //change directory 
+ls                   //lists content
+git add --a          //stages the changes 
+git commit -m  " "   //use to change repositories
+git log              //shows what changes we have made in a repository
+git init             //initiates a new git repositry
+.git ignore          //files name in gitignore gets ignored by git bash 
+git diff             //compares working directory to staging area 
+mkdir                //makes a new directory
+git diff --staged    //compares previous commit to present staging area
+git commit -a -m ""  //stages only tracked files 
+git rm filename      //removes file from reposietry
+git mv filename newfilename  //renames file name 
+git rm --cached filename     //stops tracking tracked file 
+git config --global user.name name  //sets user name for repository
+git config --global user.email email //sets email for repository
+git log -p           //shows all precious commit
+git log -p  -2       //shows 2 precious commit
+git log --stat       //shows short summary of all commits 
+git log --pretty=oneline  //shows all commit ,each commit in one line 
+git log --pretty=full     //shows author also
+git log --since=2.weeks/months  //shows all commits in previous 2 weeks/months
+git restore --staged file name  // unstages the file 
+git checkout -- file name       //mathes the file to previous commit / restores file to previous commit 
+git commit -f          //restores all file to previous commit 
+git remote add origin url   //adds github repository in your computor 
+git remote          //shows all remote repositories
+git remote -v       // shows fetches and push repository
+git config --global alias.name command   //creates alias 
+git checkout -b name     //creates and takes ud to new branch 
+git checkout master    //takes us back to master 
+git branch          //shows name of all the branches 
+git checkout branchname   //takes us to the specified branch
+git merge branchname      //merges the branch 
+git branch --merge       //shows already mearged branches
+git branch --no-merged   //shows branches that are not already branched
+git branch -v        //shows all branches with last commit in them
+git branch -d branchName     //deletes the branch
+git remote add origin link   //to add repository to git bash
+git push  u origin master    //add files to github repository
+git push origin BranchName   //add branch to github repository
+git push origin BranchName:NewBranchName   //add branch to github repository with new name
+
+
+

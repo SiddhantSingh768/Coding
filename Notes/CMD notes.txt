@@ -1,0 +1,85 @@
+cd..      //takes us one directory back
+cd/        //takes us to last directory 
+cd  ' '    //takes to specfied directory 
+dir        //shows all apps
+dir /ad    //only shows folder 
+dir /a-d   //shows all items except folder 
+cls        //clears CMD screen
+md   ' '   //makes folder 
+mkdir ' '  //makes folder
+rmdir ' '  //deletes folder
+xcopy ' ' " "  // copies file from '' to ""
+xcopy *.txt "" //copies all .txt file to ""
+del name       // deletes name 
+move name ""  //cuts file name to ""
+ren name _name //renames file 
+tasklist     //lists all tasks in background 
+taskkill /pid 7777  //kills process with id 7777
+net start  //shows all services running 
+net stop ""  //stops ""
+driverquery  //shows list of all drivers 
+netsh advfirewall set all state off   //closes firewall
+netsh advfirewall set all state on    //vice versa 
+wmic cpu   //shows all information of cpu 
+wmic bios get serialnumber  //shows bios serialnumber 
+wmic computersystem get totalphysicalmemory  //shows computers ram in bites
+wmic nic get macaddress    //shows mac address of computer
+wmic partition get name,size,type   //shows all partition 
+wmic process list breif   //lists all process running 
+wmic process where name="" call terminate     //terminates program 
+wmic product get name,version  //shows installed apps with version
+vol D:    // shows d drive serial number 
+winver    //shows windows version
+chkdsk    //shows disk information (hard drive )
+systeminfo   //shows system iinformation 
+diskpart     //shows disk partition 
+  1.select disk 0  //selects disk 0
+  2.detail disk    //shows detail of disk 0
+  3.exit       //to exit loop
+net user   //shows all users that exist in your computer 
+net user name psd   //creates new user of name name and password psd 
+net user username /active:yes/no   //enables or disables user 
+net user username *  //to change/remove password of a user 
+type nul> filename.extention  //creates a enpty  file 
+copy con name.extention   //copies all command writen in cmd (ctrl+z)
+echo  text >name.extention  //copies all command writen in cmd
+cipher /e     //encripts all files in your working directory
+cipher /d     //decripts all files in your working directory
+cipher /e filename.extention  //encripts filename.extention file in your working directory
+cipher /d filename.extention  //decripts filename.extention file in your working directory
+attrib +h +r +s   //hides all files in your working directory
+attrib -h -r -s   //dehides all files in your working directory
+attrib +h +r +s filename.exe   //hides  file in your working directory
+attrib -h -r -s  filename.exe   //dehides file in your working directory
+diskpart   //opens a service that operates disk 
+  exit     //exits diskpart
+netsh wlan show profiles   //shows profile of connected network 
+netsh wlan show all        //shows detail of all available networks
+netsh wlan show profile name key=clear  //shows conected  wifi password 
+netsh wlan delete profile name=         //deletes wifi 
+netsh wlan set hostednetwork mode=allow ssid=name key=psd  //creates hotspot of name name and password psd 
+ipconfig   //shows your ip address 
+ping ip    //conects to ip if in your network 
+tracert ip/url   //shows all ip btw us and ip/url 
+netstart -e    //shows network statistics 
+nslookup url   //shows ip of website 
+color ?        //shows color informatio of cmd 
+tittle name    //changes title of cmd to name
+prompt name    //changes directory name to name 
+mode 30        //changes cmd size 
+tree(in a drive)          //shows all file 
+hostname      //shows name of host
+doskey/history  //shows all commands you write 
+date     //shows date 
+time     //shows time 
+shutdown -s -t 55   //system will shutdown in 55sec
+shutdown -r -t 55   //system will restart in 55sec
+
+
+ 
+
+
+
+
+ 
+

@@ -1,0 +1,11 @@
+Encapsulation -  encapsulation is defined as the wrapping up of data and method under a single unit.it also implements data handeling.
+Constructor - it is a special method which is invoked automatically at time of object creation.
+example- class student{}
+    - it has same name as a class or structure .
+    - it don't has a return type. not even void.
+    - it is only called once at time of object creation.
+    - memory allocation happens when constructor is called.
+Types of constructors -
+  -non-parameterised
+  -parameterised
+  -copy constructor
