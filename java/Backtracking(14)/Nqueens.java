@@ -1,0 +1,41 @@
+public class Nqueens{
+    //place N queen in a N*N chessboard such that 2 queen attack eachother
+   
+    public static void Queen(char board[][],int row){
+        //Base case 
+        if(row==board.length){
+            printBoard(board);
+            count++;
+            return;
+        }
+        //column loop
+        for(int j=0;j<board.length;j++){
+            board[row][j]='Q';
+            Queen(board, row+1);//function call
+            board[row][j]='.';//backtracking
+        
+        }
+    }
+    public static void printBoard(char board[][]){
+        System.out.println("------ChessBoard-------");
+        for(int i=0;i<board.length;i++){
+            for(int j=0;j<board.length;j++){
+                System.out.print(board[i][j]+" ");
+            }
+        }
+        System.out.println();
+    }
+    static  int count =0;
+    public static void main(String[] args) {
+        int n=2;
+        char board[][]=new char[n][n];
+        //initialising 
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                board[i][j]='.';
+            }
+        }
+        Queen(board,0);
+        System.out.println(count);
+    }
+}
