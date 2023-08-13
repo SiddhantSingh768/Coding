@@ -52,3 +52,7 @@ public class MaxAreaHistogram{
        maxArea(arr); 
     }
 }
+
+
+
+
