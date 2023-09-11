@@ -166,7 +166,13 @@ public class TopView{
         int n=5,k=2;
         System.out.print(k+"th ancestor of "+n+" is : ");
         KthAncestor(root, n, k);
-        transform(root);
+        /*                        27
+                               /    \
+                             9       13           Transform to sumTree
+                            / \     / \
+                           0   0   0   0
+        */
+        transform(root);           
         preOrder(root);
     }
 }
