@@ -1,0 +1,35 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-delay: 1s; */
+    transition: all 2s steps(3) 1s;
+    transform: rotate(45deg);
+    transform: scale(1.5,1);
+    transform: translate(100px,100px);
+    transform: skew(45deg);
+    animation-name: colorAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+}
+@media (width:600px){
+    div{
+        background-color: blue;
+    }
+}
+@keyframes colorAnimation{
+    from{
+        background-color:pink;
+    to {
+        background-color: blue;
+    }
+}
+    
+}
+div:hover{
+    background-color: red;
+}

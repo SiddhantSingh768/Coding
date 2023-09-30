@@ -1,0 +1,39 @@
+h1{
+    color: green;
+    background-color: rgb(0, 0, 0);
+    text-decoration: wavy underline;
+}
+p{
+    color: red;
+    background-color: blueviolets;
+    text-align: center;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+div{
+    color: aqua;
+    background-color: brown ;
+    height: 100px;
+    width: 100px;
+    /* border-width: 20px;
+    border-color: blue;
+    border-style: dotted; */
+    border: 20PX dotted blue;
+    border-radius: 15px ; /* border radius 50%= circle  */
+    padding-left: 25px ;
+    display: inline;
+    font-size: 2em;
+    position: 
+    top 50px;
+    background-image: url(OIP.jpg);
+    background-size: cover;
+}
+body{
+    background-color: #ffff00;
+}
+/*   *{}-selects all elements in the document */
+/*   h1{}-selects all h1 elements in the document */
+/* #id{}-selects the element with the id */
+/* .class{}-selects all elements with the class */
