@@ -22,7 +22,7 @@ class Main {
 	}
 	static int countPairs(Node root1, Node root2, int x)
 	{
-		Set<Integer> set = new HashSet<>();
+		Set<Integer> set = new Hashset<>();
 		Stack<Node> stack = new Stack<>();
 		Node curr = root2;
 
