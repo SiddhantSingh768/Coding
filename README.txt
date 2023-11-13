@@ -9,3 +9,5 @@
 🔗 https://github.com/SiddhantSingh768/Coding.git
 
 Feel free to customize it according to your preferences and add specific details about your projects or any other information you'd like to highlight!
+
+Copyright(©) by Siddhant Singh
